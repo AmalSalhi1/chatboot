@@ -1,0 +1,21 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - order_food
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_happy
+- utter_iamabot
+- action_order_food
+- utter_order_confirmation
+
+responses:
+  utter_order_confirmation:
+  - text: "Your order has been placed. Enjoy your meal!"
